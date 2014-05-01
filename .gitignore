@@ -28,6 +28,19 @@ local.properties
 # PDT-specific
 .buildpath
 
+# Unity .gitignore file.
+*.sln
+*.userprefs
+*.csproj
+*.pidb
+*.unityproj
+.DS_Store
+/Library/FailedAssetImports.txt
+/Library/cache/
+/Library/previews/
+/Library/ScriptAssemblies
+/obj
+/Temp
 
 #################
 ## Visual Studio
