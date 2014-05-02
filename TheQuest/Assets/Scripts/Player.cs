@@ -5,6 +5,12 @@ public class Player : MonoBehaviour {
 
 	public float speed = 10f;
 
+	private float lastSynchronizationTime = 0f;
+	private float syncDelay = 0f;
+	private float syncTime = 0f;
+	private Vector3 syncStartPosition = Vector3.zero;
+	private Vector3 syncEndPosition = Vector3.zero;
+
 	// Use this for initialization
 	void Start () {
 	
@@ -14,6 +20,8 @@ public class Player : MonoBehaviour {
 	void Update () {
 		if (networkView.isMine)
 			InputMovement();
+		else
+			SyncedMovement();
 	}
 
 	void InputMovement () {
@@ -28,5 +36,31 @@ public class Player : MonoBehaviour {
 		
 		if (Input.GetKey(KeyCode.A))
 			rigidbody.MovePosition(rigidbody.position - Vector3.right * speed * Time.deltaTime);
+	}
+
+	private void SyncedMovement() {
+		syncTime += Time.deltaTime;
+		rigidbody.position = Vector3.Lerp(syncStartPosition, syncEndPosition, syncTime / syncDelay);
+	}
+
+	void OnSerializeNetworkView(BitStream stream, NetworkMessageInfo info)
+	{
+		Vector3 syncPosition = Vector3.zero;
+		if (stream.isWriting)
+		{
+			syncPosition = rigidbody.position;
+			stream.Serialize(ref syncPosition);
+		}
+		else
+		{
+			stream.Serialize(ref syncPosition);
+
+			syncTime = 0f;
+			syncDelay = Time.time - lastSynchronizationTime;
+			lastSynchronizationTime = Time.time;
+
+			syncStartPosition = rigidbody.position;
+			syncEndPosition = syncPosition;
+		}
 	}
 }
