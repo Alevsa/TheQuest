@@ -26,6 +26,9 @@ public class Player : MonoBehaviour {
 		}
 		else
 			SyncedMovement();
+
+		if (transform.position.y < -20)
+			transform.position = new Vector3 (Random.Range(-3F, 3F), 1F, Random.Range(-3F, 3F)); 
 	}
 
 	void InputMovement () {
@@ -52,7 +55,7 @@ public class Player : MonoBehaviour {
 		{
 			Ray mouseRay = Camera.main.ScreenPointToRay(Input.mousePosition);
 			RaycastHit hit;
-			Physics.Raycast(mouseRay, out hit, 100, LayerMask.NameToLayer("Ground"));
+			Physics.Raycast(mouseRay, out hit, 1000, 1 << 8);
 
 			Vector3 spawnPoint = transform.position + (hit.point - transform.position).normalized * 2;
 			spawnPoint.y = transform.position.y;

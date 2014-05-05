@@ -22,7 +22,7 @@ public class Fireball : Spell {
 
 		Ray mouseRay = Camera.main.ScreenPointToRay(Input.mousePosition);
 		RaycastHit hit;
-		Physics.Raycast(mouseRay, out hit, 100, LayerMask.NameToLayer("Ground"));
+		Physics.Raycast(mouseRay, out hit, 1000, 1 << 8);
 
 		if (networkView.isMine)
 			networkView.RPC("ChangeColorTo", RPCMode.OthersBuffered);
