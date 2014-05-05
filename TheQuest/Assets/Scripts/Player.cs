@@ -4,8 +4,11 @@ using System.Collections;
 public class Player : MonoBehaviour {
 
 	public float speed = 10f;
+
+	public GameObject movementMarker;
 	public GameObject spell;
 
+	private Vector3 movingTowards;
 	private float lastSynchronizationTime = 0f;
 	private float syncDelay = 0f;
 	private float syncTime = 0f;
@@ -28,21 +31,41 @@ public class Player : MonoBehaviour {
 			SyncedMovement();
 
 		if (transform.position.y < -20)
+		{
 			transform.position = new Vector3 (Random.Range(-3F, 3F), 1F, Random.Range(-3F, 3F)); 
+		}
 	}
 
 	void InputMovement () {
-		if (Input.GetKey(KeyCode.W))
-			rigidbody.MovePosition(rigidbody.position + Vector3.forward * speed * Time.deltaTime);
-		
-		if (Input.GetKey(KeyCode.S))
-			rigidbody.MovePosition(rigidbody.position - Vector3.forward * speed * Time.deltaTime);
-		
-		if (Input.GetKey(KeyCode.D))
-			rigidbody.MovePosition(rigidbody.position + Vector3.right * speed * Time.deltaTime);
-		
-		if (Input.GetKey(KeyCode.A))
-			rigidbody.MovePosition(rigidbody.position - Vector3.right * speed * Time.deltaTime);
+		if (rigidbody.velocity == Vector3.zero)
+		{
+			if (Input.GetMouseButtonDown(1))
+			{
+				Ray mouseRay = Camera.main.ScreenPointToRay(Input.mousePosition);
+				RaycastHit hit;
+				Physics.Raycast(mouseRay, out hit, 1000, 1 << 8);
+
+				Instantiate(movementMarker, hit.point + new Vector3(0F, 1F, 0F), Quaternion.LookRotation(new Vector3(0, -1, 0), Vector3.zero));
+				movingTowards = hit.point + new Vector3 (0F, transform.position.y, 0F);
+			}
+
+			if ((transform.position != movingTowards) && (movingTowards.y != 1F))
+				transform.position = Vector3.Lerp(transform.position, movingTowards, Time.deltaTime * speed / Vector3.Distance(transform.position, movingTowards));
+//		if (Input.GetKey(KeyCode.W))
+//			rigidbody.MovePosition(rigidbody.position + Vector3.forward * speed * Time.deltaTime);
+//		
+//		if (Input.GetKey(KeyCode.S))
+//			rigidbody.MovePosition(rigidbody.position - Vector3.forward * speed * Time.deltaTime);
+//		
+//		if (Input.GetKey(KeyCode.D))
+//			rigidbody.MovePosition(rigidbody.position + Vector3.right * speed * Time.deltaTime);
+//		
+//		if (Input.GetKey(KeyCode.A))
+//			rigidbody.MovePosition(rigidbody.position - Vector3.right * speed * Time.deltaTime);
+		}
+	}
+
+	void FixedUpdate () {
 	}
 
 	private void InputColorChange () {
@@ -81,10 +104,11 @@ public class Player : MonoBehaviour {
 	}
 
 	void OnCollisionEnter (Collision col) {
+		movingTowards = new Vector3 (0F, 1F, 0F);
+
 		if (col.gameObject.GetComponent<Spell>() != null)
 		{
 			Spell spellCollider = col.gameObject.GetComponent<Spell>();
-			//rigidbody.AddForce(col.collider.rigidbody.velocity.normalized * col.collider.rigidbody.mass * col.collider.rigidbody.mass);
 		}
 	}
 

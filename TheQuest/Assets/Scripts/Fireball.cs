@@ -31,7 +31,7 @@ public class Fireball : Spell {
 	}
 
 	void OnCollisionEnter (Collision col) {
-		//Destroy(this.gameObject);
+		Destroy(this.gameObject);
 	}
 
 	void Update () {
