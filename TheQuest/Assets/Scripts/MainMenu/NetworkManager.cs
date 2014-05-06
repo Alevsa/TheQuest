@@ -16,7 +16,7 @@ public class NetworkManager : MonoBehaviour {
 	void OnServerInitialized() 
     {
         Application.LoadLevel("ArenaOne");
-		//SpawnPlayer();
+		SpawnPlayer();
 	}
 
 	void OnGUI() {
@@ -59,7 +59,7 @@ public class NetworkManager : MonoBehaviour {
 	void OnConnectedToServer()
 	{
         Application.LoadLevel("ArenaOne");
-		//SpawnPlayer();
+		SpawnPlayer();
 	}
 
 	private void SpawnPlayer()

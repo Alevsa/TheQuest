@@ -10,8 +10,9 @@ public class Player : MonoBehaviour
 	public float speed = 10f;
 
 	public GameObject movementMarker;
-	public GameObject spell;
+	public Spell spell;
 
+	private float timeMarker;
 	private Vector3 movingTowards;
 	private float lastSynchronizationTime = 0f;
 	private float syncDelay = 0f;
@@ -22,7 +23,8 @@ public class Player : MonoBehaviour
 	// Use this for initialization
 	void Start () 
     {
-        playerNameLocation = transform.Find("playerName");
+		playerNameLocation = transform.Find("playerName");
+		DontDestroyOnLoad(this);
 	}
 	
 	// Update is called once per frame
@@ -83,14 +85,18 @@ public class Player : MonoBehaviour
 	private void InputCastSpell () {
 		if (Input.GetKeyDown (KeyCode.Q))
 		{
-			Ray mouseRay = Camera.main.ScreenPointToRay(Input.mousePosition);
-			RaycastHit hit;
-			Physics.Raycast(mouseRay, out hit, 1000, 1 << 8);
+			if (Time.time >= timeMarker)
+			{
+				Ray mouseRay = Camera.main.ScreenPointToRay(Input.mousePosition);
+				RaycastHit hit;
+				Physics.Raycast(mouseRay, out hit, 1000, 1 << 8);
 
-			Vector3 spawnPoint = transform.position + (hit.point - transform.position).normalized * 2;
-			spawnPoint.y = transform.position.y;
+				Vector3 spawnPoint = transform.position + (hit.point - transform.position).normalized * 2;
+				spawnPoint.y = transform.position.y;
 
-			Network.Instantiate(spell, spawnPoint, Quaternion.identity, 0);
+				spell.CastSpell(spawnPoint);
+				timeMarker = Time.time + spell.Cooldown;
+			}
 		}
 	}
 

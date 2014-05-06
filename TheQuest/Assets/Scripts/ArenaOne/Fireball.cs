@@ -3,15 +3,21 @@ using System.Collections;
 
 public class Fireball : Spell {
 
+	public float speed = 10f;
+	public GameObject explosion;
+
 	private float lastSynchronizationTime = 0f;
 	private float syncDelay = 0f;
 	private float syncTime = 0f;
 	private Vector3 syncStartPosition;
 	private Vector3 syncEndPosition;
 
+	public override float Cooldown {
+		get { return 2;}
+		set { ; }
+	}
+
 	public Fireball() {
-		damage = 5f;
-		speed = 100f;
 	}
 	// Use this for initialization
 	void Start () {
@@ -27,10 +33,15 @@ public class Fireball : Spell {
 		if (networkView.isMine)
 			networkView.RPC("ChangeColorTo", RPCMode.OthersBuffered);
 
-		rigidbody.AddForce((hit.point - transform.position).normalized * rigidbody.mass * rigidbody.mass * speed);
+		rigidbody.AddForce((hit.point - transform.position).normalized * rigidbody.mass * speed);
+	}
+
+	public override void CastSpell (Vector3 spawnPoint) {
+		Network.Instantiate(this, spawnPoint, Quaternion.identity, 0);
 	}
 
 	void OnCollisionEnter (Collision col) {
+		Network.Instantiate(explosion, transform.position, Quaternion.identity, 1);
 		Destroy(this.gameObject);
 	}
 
