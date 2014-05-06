@@ -4,7 +4,7 @@ using System.Collections;
 public class NetworkManager : MonoBehaviour {
 
 	private const string typeName = "Sorcerers";
-	private const string gameName = "Default";
+	private string gameName = "Default";
 	public GameObject playerPrefab;
 	private HostData[] hostList;
 
@@ -13,15 +13,20 @@ public class NetworkManager : MonoBehaviour {
 		MasterServer.RegisterHost(typeName, gameName);
 	}
 
-	void OnServerInitialized() {
-		SpawnPlayer();
+	void OnServerInitialized() 
+    {
+        Application.LoadLevel("ArenaOne");
+		//SpawnPlayer();
 	}
 
 	void OnGUI() {
 		if (!Network.isClient && !Network.isServer)
 		{
-			if (GUI.Button(new Rect(100, 100, 250, 100), "Start Server"))
-				StartServer();
+            GUI.Label(new Rect(100, 70, 160, 20), "Server Name ");
+            gameName = GUI.TextField(new Rect(180, 70, 170, 20), gameName, 25);
+
+            if (GUI.Button(new Rect(100, 100, 250, 100), "Start Server"))
+                StartServer();
 
 			if (GUI.Button(new Rect(100, 250, 250, 100), "Refresh Hosts"))
 				RefreshHostList();
@@ -53,7 +58,8 @@ public class NetworkManager : MonoBehaviour {
 
 	void OnConnectedToServer()
 	{
-		SpawnPlayer();
+        Application.LoadLevel("ArenaOne");
+		//SpawnPlayer();
 	}
 
 	private void SpawnPlayer()

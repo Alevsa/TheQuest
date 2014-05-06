@@ -1,7 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Player : MonoBehaviour {
+public class Player : MonoBehaviour 
+{
+    private string playerName;
+    private Transform playerNameLocation;
+
 
 	public float speed = 10f;
 
@@ -16,11 +20,14 @@ public class Player : MonoBehaviour {
 	private Vector3 syncEndPosition = Vector3.zero;
 
 	// Use this for initialization
-	void Start () {
+	void Start () 
+    {
+        playerNameLocation = transform.Find("playerName");
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+    {
 		if (networkView.isMine)
 		{
 			InputMovement();
