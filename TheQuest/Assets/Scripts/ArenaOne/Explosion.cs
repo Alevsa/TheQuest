@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Explosion : MonoBehaviour {
 
-	public float explosionForce = 100F;
+	public float explosionForce = 10F;
 	public float explosionRadius = 2F;
 
 
@@ -13,7 +13,8 @@ public class Explosion : MonoBehaviour {
 
 		foreach (RaycastHit collider in hits)
 		{
-			collider.collider.rigidbody.AddExplosionForce(explosionForce, transform.position, explosionRadius);
+			if (collider.collider.networkView.isMine)
+				collider.collider.rigidbody.AddExplosionForce(explosionForce, transform.position, explosionRadius);
 		}
 
 		Destroy (this.gameObject, 1F);

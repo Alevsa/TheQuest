@@ -41,8 +41,8 @@ public class Fireball : Spell {
 	}
 
 	void OnCollisionEnter (Collision col) {
-		Network.Instantiate(explosion, transform.position, Quaternion.identity, 1);
 		Destroy(this.gameObject);
+		Network.Instantiate(explosion, transform.position, Quaternion.identity, 1);
 	}
 
 	void Update () 
