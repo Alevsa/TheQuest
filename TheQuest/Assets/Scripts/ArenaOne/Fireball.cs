@@ -45,12 +45,15 @@ public class Fireball : Spell {
 		Destroy(this.gameObject);
 	}
 
-	void Update () {
+	void Update () 
+    {
 		if (networkView.isMine)
 		{
 		}
 		else
 			SyncedMovement();
+
+        Destroy(this.gameObject, 2);
 	}
 
 	[RPC] void ChangeColorTo ()

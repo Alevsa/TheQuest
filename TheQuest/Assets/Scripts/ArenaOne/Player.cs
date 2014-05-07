@@ -3,9 +3,9 @@ using System.Collections;
 
 public class Player : MonoBehaviour 
 {
-    private string playerName;
-    private Transform playerNameLocation;
-
+    public string playerName;
+    GUIStyle fontStyle;
+    private bool exiting = false;
 
 	public float speed = 10f;
 
@@ -23,8 +23,11 @@ public class Player : MonoBehaviour
 	// Use this for initialization
 	void Start () 
     {
-		playerNameLocation = transform.Find("playerName");
 		DontDestroyOnLoad(this);
+
+        fontStyle = new GUIStyle();
+        fontStyle.fontSize = 20;
+        fontStyle.normal.textColor = Color.white;
 	}
 	
 	// Update is called once per frame
@@ -35,6 +38,8 @@ public class Player : MonoBehaviour
 			InputMovement();
 			InputColorChange();
 			InputCastSpell();
+            ExitingToMainMenu();
+            
 		}
 		else
 			SyncedMovement();
@@ -74,7 +79,8 @@ public class Player : MonoBehaviour
 		}
 	}
 
-	void FixedUpdate () {
+	void FixedUpdate () 
+    {
 	}
 
 	private void InputColorChange () {
@@ -82,7 +88,8 @@ public class Player : MonoBehaviour
 		    ChangeColorTo(new Vector3(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f)));
 	}
 
-	private void InputCastSpell () {
+	private void InputCastSpell () 
+    {
 		if (Input.GetKeyDown (KeyCode.Q))
 		{
 			if (Time.time >= timeMarker)
@@ -99,6 +106,30 @@ public class Player : MonoBehaviour
 			}
 		}
 	}
+
+    private void ExitingToMainMenu()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+            exiting = true;
+    }
+
+    void OnGUI()
+    {
+        if (exiting)
+        {
+            GUI.Label(new Rect(440, 180, 160, 20), "Return to Main Menu?", fontStyle);
+
+            if (GUI.Button(new Rect(320, 210, 200, 50), "Yes"))
+            {
+                exiting = false;
+                Destroy(this.gameObject);
+                Network.Disconnect();
+                Application.LoadLevel("MainMenu");
+            }
+            if (GUI.Button(new Rect(530, 210, 200, 50), "No"))
+                exiting = false;
+        }
+    }
 
 	[RPC] void CastSpell (Vector3 spawn) {
 	}
