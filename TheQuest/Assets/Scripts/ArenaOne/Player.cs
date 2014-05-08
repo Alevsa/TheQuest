@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
 	public float speed = 10f;
 
 	public GameObject movementMarker;
-	public Spell spell;
+	public Spell spellOne;
 
 	private float timeMarker;
 	private Vector3 movingTowards;
@@ -37,7 +37,7 @@ public class Player : MonoBehaviour
 		{
 			InputMovement();
 			InputColorChange();
-			InputCastSpell();
+			InputCastSpellOne();
             ExitingToMainMenu();
             
 		}
@@ -88,7 +88,7 @@ public class Player : MonoBehaviour
 		    ChangeColorTo(new Vector3(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f)));
 	}
 
-	private void InputCastSpell () 
+	protected void InputCastSpellOne () 
     {
 		if (Input.GetKeyDown (KeyCode.Q))
 		{
@@ -101,8 +101,8 @@ public class Player : MonoBehaviour
 				Vector3 spawnPoint = transform.position + (hit.point - transform.position).normalized * 2;
 				spawnPoint.y = transform.position.y;
 
-				spell.CastSpell(spawnPoint);
-				timeMarker = Time.time + spell.Cooldown;
+				spellOne.CastSpell(spawnPoint);
+				timeMarker = Time.time + spellOne.Cooldown;
 			}
 		}
 	}

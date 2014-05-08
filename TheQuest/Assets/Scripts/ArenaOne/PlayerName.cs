@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerName : MonoBehaviour 
+public class PlayerName : Player
 {
  
     private Transform target;  // Object that this label should follow

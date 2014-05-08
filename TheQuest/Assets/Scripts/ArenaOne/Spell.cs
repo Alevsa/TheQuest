@@ -7,10 +7,13 @@ public abstract class Spell : MonoBehaviour {
 	public static float baseDamage;
 	public static float baseCooldown;
 
-	public abstract float Cooldown {
+	public abstract float Cooldown 
+    {
 		get;
 		set;
 	}
+
+    public abstract Sprite SpellIcon { get; }
 
 	public Spell()
 	{

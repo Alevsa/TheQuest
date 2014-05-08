@@ -12,6 +12,9 @@ public class Fireball : Spell {
 	private Vector3 syncStartPosition;
 	private Vector3 syncEndPosition;
 
+    public Sprite FireballIcon;
+    public override Sprite SpellIcon { get { return FireballIcon; } }
+
 	public override float Cooldown {
 		get { return 2;}
 		set { ; }
