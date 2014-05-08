@@ -24,7 +24,7 @@ public class PlayerName : MonoBehaviour
             target = player.transform;
             guiText.text = playerScript.playerName;
 
-	        thisTransform = transform;
+            thisTransform = transform;
             if (useMainCamera)
                 cam = Camera.main;
             else
@@ -35,7 +35,7 @@ public class PlayerName : MonoBehaviour
  
     void Update()
         {
- 
+
             if (clampToScreen)
             {
                 Vector3 relativePosition = camTransform.InverseTransformPoint(target.position);
@@ -47,6 +47,6 @@ public class PlayerName : MonoBehaviour
  
             }
             else
-                thisTransform.position = cam.WorldToViewportPoint(target.position + offset);
+                thisTransform.position = cam.WorldToViewportPoint(target.position + offset); 
     }
 }

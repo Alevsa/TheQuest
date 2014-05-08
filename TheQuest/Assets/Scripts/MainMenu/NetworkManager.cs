@@ -14,6 +14,7 @@ public class NetworkManager : MonoBehaviour {
     private string playerName = "420 Blaze It";
 
     private bool creatingServer, searchingForGame, options = false;
+    private Vector2 scrollposition;
 
 	private void StartServer() 
     {
@@ -74,24 +75,27 @@ public class NetworkManager : MonoBehaviour {
 
         if (searchingForGame)
         {
-            GUI.Label(new Rect(470, 245, 160, 20), "Games ", fontStyle);
+            scrollposition = GUI.BeginScrollView(new Rect(360, 245, 300, 200), scrollposition, new Rect(0, 0, 305, 200));
 
             if (hostList != null)
             {
                 int i;
                 for (i = 0; i < hostList.Length; i++)
                 {
-                    if (GUI.Button(new Rect(400, 220 + (50 * i), 200, 50), hostList[i].gameName))
+                    if (GUI.Button(new Rect(0, 0 + (25 * i), 305, 25), hostList[i].gameName))
                         JoinServer(hostList[i]);
                 }
 
-                if (GUI.Button(new Rect(400, 290 + (50 * (i + 1)), 200, 50), "Back"))
+                GUI.EndScrollView();
+
+                if (GUI.Button(new Rect(400, 470, 200, 50), "Back"))
                     searchingForGame = false;
             }
 
             else
             {
-                if (GUI.Button(new Rect(400, 340, 200, 50), "Back"))
+                GUI.EndScrollView();
+                if (GUI.Button(new Rect(400, 470, 200, 50), "Back"))
                     searchingForGame = false;
             }
 
