@@ -37,7 +37,7 @@ public class Player : MonoBehaviour
 		{
 			InputMovement();
 			InputColorChange();
-			InputCastSpellOne();
+			InputCastSpellOne(false);
             ExitingToMainMenu();
             
 		}
@@ -88,9 +88,9 @@ public class Player : MonoBehaviour
 		    ChangeColorTo(new Vector3(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f)));
 	}
 
-	protected void InputCastSpellOne () 
+	public void InputCastSpellOne (bool UIButtonPressed) 
     {
-		if (Input.GetKeyDown (KeyCode.Q))
+		if (Input.GetKeyDown (KeyCode.Q) || UIButtonPressed)
 		{
 			if (Time.time >= timeMarker)
 			{

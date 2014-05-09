@@ -11,7 +11,7 @@ Platform assembly: C:\Users\Sam\Documents\GitHub\TheQuest\TheQuest\test_Data\Man
 Loading C:\Users\Sam\Documents\GitHub\TheQuest\TheQuest\test_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: C:\Users\Sam\Documents\GitHub\TheQuest\TheQuest\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
 Loading C:\Users\Sam\Documents\GitHub\TheQuest\TheQuest\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-- Completed reload, in  0.037 seconds
+- Completed reload, in  0.036 seconds
 desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
@@ -21,18 +21,522 @@ FullResetD3DDevice
 ResetD3DDevice
 dev->Reset
 D3Dwindow device not lost anymore
-UnloadTime: 0.069201 ms
+UnloadTime: 0.063485 ms
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 169.
-Total: 0.973338 ms (FindLiveObjects: 0.014442 ms CreateObjectMapping: 0.011734 ms MarkObjects: 0.166385 ms  DeleteObjects: 0.055060 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 165.
+Total: 0.756104 ms (FindLiveObjects: 0.010831 ms CreateObjectMapping: 0.009026 ms MarkObjects: 0.135394 ms  DeleteObjects: 0.045131 ms)
 
-sendto failed with code -1 for char 9 and length 1464.
-sendto failed with code -1 for char 9 and length 1464.
-sendto failed with code -1 for char 9 and length 1464.
-sendto failed with code -1 for char 9 and length 1464.
-sendto failed with code -1 for char 9 and length 1464.
-sendto failed with code -1 for char 9 and length 1464.
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
 HandleD3DDeviceLost
   HandleD3DDeviceLost: still lost
 Skipped rendering frame because GfxDevice is in invalid state (device lost)
@@ -293,21 +797,27 @@ Direct3D:
     Vendor:   NVIDIA
     VRAM:     1989 MB (via DXGI)
     Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
-Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Sam\Documents\GitHub\TheQuest\TheQuest\test_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Sam\Documents\GitHub\TheQuest\TheQuest\test_Data\Managed\UnityEngine.dll into Unity Child Domain
 HandleD3DDeviceLost
   HandleD3DDeviceLost: still lost
 Skipped rendering frame because GfxDevice is in invalid state (device lost)
  
 (Filename:  Line: 1539)
 
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Sam\Documents\GitHub\TheQuest\TheQuest\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Sam\Documents\GitHub\TheQuest\TheQuest\test_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: C:\Users\Sam\Documents\GitHub\TheQuest\TheQuest\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
 Loading C:\Users\Sam\Documents\GitHub\TheQuest\TheQuest\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-- Completed reload, in  0.035 seconds
+- Completed reload, in  0.037 seconds
 desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
 HandleD3DDeviceLost
   HandleD3DDeviceLost: still lost
 Skipped rendering frame because GfxDevice is in invalid state (device lost)
@@ -385,6 +895,12 @@ HandleD3DDeviceLost
 FullResetD3DDevice
 ResetD3DDevice
 dev->Reset
+HandleD3DDeviceLost
+  HandleD3DDeviceLost: still lost
+Skipped rendering frame because GfxDevice is in invalid state (device lost)
+ 
+(Filename:  Line: 1539)
+
 HandleD3DDeviceLost
   HandleD3DDeviceLost: still lost
 Skipped rendering frame because GfxDevice is in invalid state (device lost)
@@ -698,94 +1214,6 @@ Skipped rendering frame because GfxDevice is in invalid state (device lost)
  
 (Filename:  Line: 1539)
 
-sendto failed with code -1 for char 9 and length 1464.
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-sendto failed with code -1 for char 9 and length 1464.
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-sendto failed with code -1 for char 9 and length 1464.
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-sendto failed with code -1 for char 9 and length 1464.
 HandleD3DDeviceLost
   HandleD3DDeviceLost: still lost
 Skipped rendering frame because GfxDevice is in invalid state (device lost)
@@ -882,35 +1310,11 @@ Skipped rendering frame because GfxDevice is in invalid state (device lost)
  
 (Filename:  Line: 1539)
 
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-UnloadTime: 0.056564 ms
+UnloadTime: 0.081537 ms
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 178.
-Total: 1.001620 ms (FindLiveObjects: 0.014742 ms CreateObjectMapping: 0.012035 ms MarkObjects: 0.166686 ms  DeleteObjects: 0.042724 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 171.
+Total: 0.502164 ms (FindLiveObjects: 0.008424 ms CreateObjectMapping: 0.007521 ms MarkObjects: 0.101094 ms  DeleteObjects: 0.028583 ms)
 
 HandleD3DDeviceLost
   HandleD3DDeviceLost: still lost
@@ -2148,2627 +2552,11 @@ Skipped rendering frame because GfxDevice is in invalid state (device lost)
  
 (Filename:  Line: 1539)
 
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-UnloadTime: 0.170898 ms
+UnloadTime: 0.158562 ms
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 158.
-Total: 1.022983 ms (FindLiveObjects: 0.013840 ms CreateObjectMapping: 0.014442 ms MarkObjects: 0.193163 ms  DeleteObjects: 0.138403 ms)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
-
-HandleD3DDeviceLost
-  HandleD3DDeviceLost: still lost
-Skipped rendering frame because GfxDevice is in invalid state (device lost)
- 
-(Filename:  Line: 1539)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 159.
+Total: 0.729928 ms (FindLiveObjects: 0.010831 ms CreateObjectMapping: 0.009628 ms MarkObjects: 0.135394 ms  DeleteObjects: 0.068299 ms)
 
 HandleD3DDeviceLost
   HandleD3DDeviceLost: still lost
