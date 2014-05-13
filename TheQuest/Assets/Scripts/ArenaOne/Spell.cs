@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public abstract class Spell : MonoBehaviour {
+public abstract class Spell : MonoBehaviour 
+{
 
 	public static float castPoint;
 	public static float baseDamage;

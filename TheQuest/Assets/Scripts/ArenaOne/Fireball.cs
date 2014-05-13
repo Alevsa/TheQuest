@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Fireball : Spell {
+public class Fireball : Spell 
+{
 
 	public float speed = 10f;
 	public GameObject explosion;
@@ -12,18 +13,17 @@ public class Fireball : Spell {
 	private Vector3 syncStartPosition;
 	private Vector3 syncEndPosition;
 
-    public Sprite FireballIcon;
-    public override Sprite SpellIcon { get { return FireballIcon; } }
+    public Sprite FireballUIIcon;
+    public override Sprite SpellIcon { get { return FireballUIIcon; } }
 
-	public override float Cooldown {
+	public override float Cooldown 
+    {
 		get { return 2;}
 		set { ; }
 	}
 
-	public Fireball() {
-	}
-	// Use this for initialization
-	void Start () {
+	void Start () 
+    {
 		syncStartPosition = transform.position;
 		syncEndPosition = transform.position;
 
@@ -39,11 +39,13 @@ public class Fireball : Spell {
 		rigidbody.AddForce((hit.point - transform.position).normalized * rigidbody.mass * speed);
 	}
 
-	public override void CastSpell (Vector3 spawnPoint) {
+	public override void CastSpell (Vector3 spawnPoint) 
+    {
 		Network.Instantiate(this, spawnPoint, Quaternion.identity, 0);
 	}
 
-	void OnCollisionEnter (Collision col) {
+	void OnCollisionEnter (Collision col) 
+    {
 		Destroy(this.gameObject);
 		Network.Instantiate(explosion, transform.position, Quaternion.identity, 1);
 	}
@@ -67,7 +69,8 @@ public class Fireball : Spell {
 			networkView.RPC("ChangeColorTo", RPCMode.OthersBuffered, renderer.material.color);
 	}
 
-	private void SyncedMovement() {
+	private void SyncedMovement() 
+    {
 		syncTime += Time.deltaTime;
 		rigidbody.position = Vector3.Lerp(syncStartPosition, syncEndPosition, syncTime / syncDelay);
 	}

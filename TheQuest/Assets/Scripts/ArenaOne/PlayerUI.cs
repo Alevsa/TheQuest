@@ -6,49 +6,61 @@ public class PlayerUI : MonoBehaviour
     private GameObject player;
     private Player playerScript;
 
+    public Texture2D buttonHighlighter;
+
     private Texture2D spellTextureOne;
-    private Texture2D spellTextureTwo;
-    private Texture2D spellTextureThree;
-    private Texture2D spellTextureFour;
-    private Texture2D spellTextureFive;
+    private Texture2D spellTextureTwo = null;
+    private Texture2D spellTextureThree = null;
+    private Texture2D spellTextureFour = null;
+    private Texture2D spellTextureFive = null;
 
     private int ButtonSize = 70;
+    private int HighlightSize = 72;
     GUIStyle style = new GUIStyle();
+    GUIStyle buttonHighlight = new GUIStyle();
 
     void Start()
     {
         player = GameObject.Find("Player(Clone)");
-        playerScript = player.GetComponent<Player>();
+        playerScript = player.GetComponent<Player>(); 
+
         spellTextureOne = playerScript.spellOne.SpellIcon.texture;
 
         style.normal.textColor = Color.white;
+        buttonHighlight.normal.background = buttonHighlighter;
     }
 
     void OnGUI()
     {
+        if (playerScript.PrecastingOne)
+            GUI.DrawTexture(new Rect(300, 650, HighlightSize, HighlightSize), buttonHighlighter);
+
         if(GUI.Button(new Rect(300, 650, ButtonSize, ButtonSize), spellTextureOne))
-            {
-                playerScript.InputCastSpellOne(true);
-            }
+        {
+            if (!playerScript.PrecastingOne)
+                playerScript.PrecastingOne = true;
+            else
+                playerScript.PrecastingOne = false;
+        }
 
         if (GUI.Button(new Rect(400, 650, ButtonSize, ButtonSize), spellTextureTwo))
             {
-                //InputCastSpellOne();
+                
             }
 
         if (GUI.Button(new Rect(500, 650, ButtonSize, ButtonSize), spellTextureThree))
             {
-                //InputCastSpellOne();
+                
             }
 
         if (GUI.Button(new Rect(600, 650, ButtonSize, ButtonSize), spellTextureFour))
             {
-                //InputCastSpellOne();
+                
             }
 
         if (GUI.Button(new Rect(700, 650, ButtonSize, ButtonSize), spellTextureFive))
             {
-                //InputCastSpellOne();
+                
             }
 
         GUI.Label(new Rect(347, 693, 50, 50), "Q", style);
@@ -57,8 +69,7 @@ public class PlayerUI : MonoBehaviour
         GUI.Label(new Rect(647, 693, 50, 50), "R", style);
         GUI.Label(new Rect(747, 693, 50, 50), "T", style);
     }
-	
-	// Update is called once per frame
+
 	void Update () 
     {
 

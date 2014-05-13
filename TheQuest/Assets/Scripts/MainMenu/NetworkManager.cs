@@ -3,15 +3,15 @@ using System.Collections;
 
 public class NetworkManager : MonoBehaviour {
 
-	private const string typeName = "Sorcerers";
-	private string gameName = "Default";
+	private const string typeName = "Conjurers";
+	private string gameName = "Conjurers";
 	public GameObject playerPrefab;
 	private HostData[] hostList;
 
     private GameObject playerClone;
     private Player playerScript;
     public Font Font;
-    private string playerName = "420 Blaze It";
+    private string playerName = "Cyka";
 
     private bool creatingServer, searchingForGame, options = false;
     private Vector2 scrollposition;
@@ -142,13 +142,12 @@ public class NetworkManager : MonoBehaviour {
         playerScript = playerClone.GetComponent<Player>();
         playerScript.playerName = this.playerName;
 	}
-	// Use this for initialization
+
 	void Start () 
     {
 		Application.runInBackground = true;
 	}
 	
-	// Update is called once per frame
 	void Update () 
     {
         if (Input.GetKeyDown(KeyCode.Escape))

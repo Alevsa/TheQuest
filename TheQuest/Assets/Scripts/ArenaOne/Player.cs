@@ -10,7 +10,9 @@ public class Player : MonoBehaviour
 	public float speed = 10f;
 
 	public GameObject movementMarker;
-	public Spell spellOne;
+
+	public Spell spellOne, spellTwo, spellThree, spellFour, spellFive;
+    public bool PrecastingOne, PrecastingTwo, PrecastingThree, PrecastingFour, PrecastingFive = false;
 
 	private float timeMarker;
 	private Vector3 movingTowards;
@@ -20,7 +22,6 @@ public class Player : MonoBehaviour
 	private Vector3 syncStartPosition = Vector3.zero;
 	private Vector3 syncEndPosition = Vector3.zero;
 
-	// Use this for initialization
 	void Start () 
     {
 		DontDestroyOnLoad(this);
@@ -30,16 +31,15 @@ public class Player : MonoBehaviour
         fontStyle.normal.textColor = Color.white;
 	}
 	
-	// Update is called once per frame
 	void Update () 
     {
 		if (networkView.isMine)
 		{
+            PrecastingSpells();
 			InputMovement();
 			InputColorChange();
-			InputCastSpellOne(false);
-            ExitingToMainMenu();
-            
+			InputCastSpell();
+            ExitingToMainMenu();        
 		}
 		else
 			SyncedMovement();
@@ -65,32 +65,18 @@ public class Player : MonoBehaviour
 
 			if ((transform.position != movingTowards) && (movingTowards.y != 1F))
 				transform.position = Vector3.Lerp(transform.position, movingTowards, Time.deltaTime * speed / Vector3.Distance(transform.position, movingTowards));
-//		if (Input.GetKey(KeyCode.W))
-//			rigidbody.MovePosition(rigidbody.position + Vector3.forward * speed * Time.deltaTime);
-//		
-//		if (Input.GetKey(KeyCode.S))
-//			rigidbody.MovePosition(rigidbody.position - Vector3.forward * speed * Time.deltaTime);
-//		
-//		if (Input.GetKey(KeyCode.D))
-//			rigidbody.MovePosition(rigidbody.position + Vector3.right * speed * Time.deltaTime);
-//		
-//		if (Input.GetKey(KeyCode.A))
-//			rigidbody.MovePosition(rigidbody.position - Vector3.right * speed * Time.deltaTime);
 		}
 	}
 
-	void FixedUpdate () 
+	private void InputColorChange () 
     {
-	}
-
-	private void InputColorChange () {
 		if (Input.GetKeyDown(KeyCode.R))
 		    ChangeColorTo(new Vector3(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f)));
 	}
 
-	public void InputCastSpellOne (bool UIButtonPressed) 
+	public void InputCastSpell () 
     {
-		if (Input.GetKeyDown (KeyCode.Q) || UIButtonPressed)
+		if (Input.GetMouseButtonDown(0) && PrecastingOne)
 		{
 			if (Time.time >= timeMarker)
 			{
@@ -103,10 +89,55 @@ public class Player : MonoBehaviour
 
 				spellOne.CastSpell(spawnPoint);
 				timeMarker = Time.time + spellOne.Cooldown;
+
+                PrecastingOne = false; 
 			}
 		}
+
+        if (Input.GetMouseButtonDown(0) && PrecastingTwo)
+        {
+        }
+
+        if (Input.GetMouseButtonDown(0) && PrecastingTwo)
+        {
+        }
+
+        if (Input.GetMouseButtonDown(0) && PrecastingTwo)
+        {
+        }
+
+        if (Input.GetMouseButtonDown(0) && PrecastingTwo)
+        {
+        }
 	}
 
+    private void PrecastingSpells()
+    {
+        if (Input.GetKeyDown(KeyCode.Q) && !PrecastingOne)
+            PrecastingOne = true;
+        else if (Input.GetKeyDown(KeyCode.Q) && PrecastingOne)
+            PrecastingOne = false;
+
+        if (Input.GetKeyDown(KeyCode.W) && !PrecastingTwo)
+            PrecastingTwo = true;
+        else if (Input.GetKeyDown(KeyCode.W) && PrecastingTwo)
+            PrecastingTwo = false;
+
+        if (Input.GetKeyDown(KeyCode.E) && !PrecastingThree)
+            PrecastingThree = true;
+        else if (Input.GetKeyDown(KeyCode.E) && PrecastingThree)
+            PrecastingThree = false;
+
+        if (Input.GetKeyDown(KeyCode.E) && !PrecastingFour)
+            PrecastingFour = true;
+        else if (Input.GetKeyDown(KeyCode.E) && PrecastingFour)
+            PrecastingFour = false;
+
+        if (Input.GetKeyDown(KeyCode.E) && !PrecastingFive)
+            PrecastingFive = true;
+        else if (Input.GetKeyDown(KeyCode.E) && PrecastingFive)
+            PrecastingFive = false;
+    }
     private void ExitingToMainMenu()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -131,7 +162,8 @@ public class Player : MonoBehaviour
         }
     }
 
-	[RPC] void CastSpell (Vector3 spawn) {
+	[RPC] void CastSpell (Vector3 spawn) 
+    {
 	}
 
 	[RPC] void ChangeColorTo (Vector3 color)
@@ -142,12 +174,14 @@ public class Player : MonoBehaviour
 				networkView.RPC("ChangeColorTo", RPCMode.OthersBuffered, color);
 	}
 
-	private void SyncedMovement() {
+	private void SyncedMovement() 
+    {
 		syncTime += Time.deltaTime;
 		rigidbody.position = Vector3.Lerp(syncStartPosition, syncEndPosition, syncTime / syncDelay);
 	}
 
-	void OnCollisionEnter (Collision col) {
+	void OnCollisionEnter (Collision col) 
+    {
 		movingTowards = new Vector3 (0F, 1F, 0F);
 
 		if (col.gameObject.GetComponent<Spell>() != null)
