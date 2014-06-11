@@ -39,7 +39,7 @@ public class Player : MonoBehaviour
 			InputMovement();
 			InputColorChange();
 			InputCastSpell();
-            ExitingToMainMenu();        
+            InputMisc();        
 		}
 		else
 			SyncedMovement();
@@ -138,7 +138,7 @@ public class Player : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.E) && PrecastingFive)
             PrecastingFive = false;
     }
-    private void ExitingToMainMenu()
+    private void InputMisc()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
             exiting = true;
